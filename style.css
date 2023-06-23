@@ -88,8 +88,39 @@ header .logo img{
     transform: scale(1.1);
 }
 
+.contenedor1{
+    display: flex;
+    
+    flex-wrap: wrap;
+}
 
+.contenedor1 h1{
+    font-size: 50px;
+    color: white;
+    margin: 150px 900px 0 150px;
+}
 
+.contenedor1 h4{
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+    margin: 20px 900px 0 150px;
+}
+
+@media (Max-width: 1100px){
+    .contenedor1 h1{
+        font-size: 40px;
+        
+        
+    }
+
+    .contenedor1 h4{
+        font-size: 20px;
+        
+
+    }
+
+}
 
 
 
