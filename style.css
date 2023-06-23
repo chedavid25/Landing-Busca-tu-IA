@@ -8,11 +8,18 @@
 }
 
 body{
-    background-color: aliceblue;
+    background: #242424;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ED467B, #242424);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ED467B, #1b1b1b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
+
+
+
+
 header{
-    background-color: #f5487f;
+    background: linear-gradient(90deg, #ED467B 0%, #282425 88.49%, #242424 100%);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -68,7 +75,7 @@ header .logo img{
     font-weight: 700;
     color: #ffffff;
     padding: 9px 25px;
-    background-color: #8f3b76;
+    background-color: #F5487F;
     border: none;
     border-radius: 50px;
     cursor: pointer;
