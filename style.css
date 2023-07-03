@@ -91,6 +91,8 @@ header .logo img{
     transform: scale(1.1);
 }
 
+
+
 main{
     display: flex;
     flex-direction: column;
@@ -98,6 +100,7 @@ main{
     justify-content: center;
     width: 100%;
     color: white;
+    
     
 }
 
@@ -144,9 +147,9 @@ main{
 .btn-hero{
     display: flex;
     gap: 30px;
-    
     justify-content: start;
     flex-direction: row;
+    
 }
 
 #verMas{
